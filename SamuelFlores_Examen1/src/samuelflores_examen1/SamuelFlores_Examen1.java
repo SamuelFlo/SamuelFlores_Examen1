@@ -79,11 +79,10 @@ public class SamuelFlores_Examen1 {
             }else if(comando.equals("del")){
                 System.out.println("Ingrese el nombre de archivo a eliminar: ");
                 String archivo=lectura.nextLine();
-                for (int i = 0; i < car.getArchivo().size(); i++) {
-                    System.out.println("ew");
-                    if(archivo.equals(car.getArchivos().get(i).getNombre())){
-                        System.out.println("yei");
-                        car.getArchivos().remove(i);
+                for (int i = 0; i < archi.size(); i++) {
+                    System.out.println("hola");
+                    if(archivo.equals(archi.get(i).getNombre())){
+                        archi.remove(i);
                     }
                     
                 }
