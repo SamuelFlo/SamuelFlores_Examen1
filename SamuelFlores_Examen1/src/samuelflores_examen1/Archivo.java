@@ -10,10 +10,14 @@ public class Archivo extends Archivos {
         super();
     }
 
-    public Archivo(String texto, String nombre, String tamano, Date fechacreacion, Date fechamodificacion) {
-        super(nombre, tamano, fechacreacion, fechamodificacion);
+    public Archivo(String texto, String nombre, Date fechacreacion, Date fechamodificacion, int capacidad, String usuario) {
+        super(nombre, fechacreacion, fechamodificacion, capacidad, usuario);
         this.texto = texto;
     }
+
+    
+    
+
 
     public String getTexto() {
         return texto;
