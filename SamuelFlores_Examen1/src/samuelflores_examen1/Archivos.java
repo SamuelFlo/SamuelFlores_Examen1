@@ -18,6 +18,7 @@ public class Archivos {
     private Date fechamodificacion= new Date();
     private String usuario;
     private String raiz="root";
+    private Carpeta car;
 
     public Archivos() {
     }
