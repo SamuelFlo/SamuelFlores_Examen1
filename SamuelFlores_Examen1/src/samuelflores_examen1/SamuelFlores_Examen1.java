@@ -84,11 +84,7 @@ public class SamuelFlores_Examen1 {
                     if(archivo.equals(archi.get(i).getNombre())){
                         archi.remove(i);
                     }
-                    
                 }
-                
-                
-                
             }else if(comando.equals("exec")){
                 
             }
